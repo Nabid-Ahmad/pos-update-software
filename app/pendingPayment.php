@@ -1,0 +1,12 @@
+<?php
+
+namespace App;
+
+use Illuminate\Database\Eloquent\Model;
+
+class pendingPayment extends Model
+{
+    protected $fillable =[
+        'id',
+    ];
+}
